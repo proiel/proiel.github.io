@@ -11,9 +11,11 @@ thead th, tbody th {
 }
 
 .citation {
-  margin-left: 1em;
-  margin-right: 1em;
+  margin-left: 2em;
+  margin-right: 2em;
   font-family: "Inconsolata", "Lucida Console", Monaco, monospace;
+  border: 1px solid #dddddd;
+  padding: 0.8em;
 }
 
 body {
@@ -40,4 +42,8 @@ body {
 .subtitle {
   font-size: 100%;
   font-style: italic;
+}
+
+p {
+  margin-bottom: 1.3em;
 }
