@@ -1,5 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Arimo:400,700);
-@import url(http://fonts.googleapis.com/css?family=Inconsolata);
+@import url(http://fonts.googleapis.com/css?family=Source+Code+Pro);
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Arimo", arial, verdana, sans-serif;
@@ -13,7 +13,7 @@ thead th, tbody th {
 .citation {
   margin-left: 2em;
   margin-right: 2em;
-  font-family: "Inconsolata", "Lucida Console", Monaco, monospace;
+  font-family: 'Source Code Pro', 'Lucida Console', Monaco, monospace;
   border: 1px solid #dddddd;
   padding: 0.8em;
 }
