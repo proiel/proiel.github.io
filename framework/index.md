@@ -6,16 +6,19 @@ The _PROIEL treebanking framework_ consists of an annotation scheme, an XML-base
 
 The two main tools of the framework are 
 
-1. `proiel-cli`, a library for manipulating existing PROIEL treebanks using the XML-based interchange format, and
+1. `proiel-cli`, a command-line tool for manipulating existing PROIEL treebanks using the XML-based interchange format, and
 2. [`proiel-webapp`](https://github.com/mlj/proiel-webapp), a web-based tool for creating and annotating PROIEL treebanks
 
-If you want to use an existing PROIEL treebank that you have obtained, you will only need `proiel-cli`.
+If you want to use an existing PROIEL treebank that you have obtained, you will only need to install `proiel-cli`.
 
-If you want to create a new PROIEL treebank and set up your own infrastructure for this, you will also need [`proiel-webapp`](https://github.com/mlj/proiel-webapp). See the [`proiel-webapp` wiki](https://github.com/mlj/proiel-webapp/wiki) for installation instructions and advice on which version to use.
+If you want to create a new PROIEL treebank and set up your own infrastructure
+for this, you will need both `proiel-webapp` and `proiel-cli`. You should start
+by reading the installation instructions in the [`proiel-webapp`
+wiki](https://github.com/mlj/proiel-webapp/wiki).
 
-We also provide a number of _experimental_ tools which are still under development:
+We also provide a number of _experimental_ tools still under development:
 
-* `proiel-query`, a query tool using the TigerQuery formalism
+* `proiel-query`, a query tool using the [TigerQuery](http://www.ims.uni-stuttgart.de/forschung/ressourcen/werkzeuge/TIGERSearch/doc/html/QueryLanguage.html) formalism
 * [`proiel-api`](https://github.com/mlj/proiel-api), a JSON API for building applications on top of proiel-webapp instances
 * `proiel-lint`, a validation tool
 * `proiel-viewer`, a read-only front end for existing treebanks
