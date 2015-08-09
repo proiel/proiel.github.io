@@ -2,7 +2,11 @@
 layout: default
 ---
 
-The _PROIEL treebanking framework_ consists of an annotation scheme, an XML-based interchange format and a set of tools for creating and manipulating treebanks.
+The _PROIEL treebanking framework_ consists of an [annotation
+scheme](http://folk.uio.no/daghaug/syntactic_guidelines.pdf), an XML-based
+[interchange
+format](https://raw.githubusercontent.com/mlj/proiel-webapp/master/public/exports/proiel.xsd)
+and a set of tools for creating and manipulating treebanks.
 
 The two main tools of the framework are 
 
