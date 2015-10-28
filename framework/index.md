@@ -8,10 +8,11 @@ scheme](http://folk.uio.no/daghaug/syntactic_guidelines.pdf), an XML-based
 format](https://raw.githubusercontent.com/mlj/proiel-webapp/master/public/exports/proiel.xsd)
 and a set of tools for creating and manipulating treebanks.
 
-The two main tools of the framework are 
+The three main tools of the framework are
 
-1. `proiel-cli`, a command-line tool for manipulating existing PROIEL treebanks using the XML-based interchange format, and
+1. [`proiel-cli`](https://github.com/proiel/proiel-cli), a command-line tool for manipulating existing PROIEL treebanks using the XML-based interchange format, and
 2. [`proiel-webapp`](https://github.com/mlj/proiel-webapp), a web-based tool for creating and annotating PROIEL treebanks
+3. [`proiel`](https://github.com/proiel/proiel), a library for manipulating PROIEL treebanks
 
 If you want to use an existing PROIEL treebank that you have obtained, you will only need to install `proiel-cli`.
 
