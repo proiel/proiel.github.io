@@ -32,5 +32,5 @@ The PROIEL treebanking framework is currently used by the following treebanking 
 
 * [The Tromsø Old Russian and OCS Treebank (TOROT)](https://nestor.uit.no/)
 * [The PROIEL Treebank](http://proiel.github.io)
-* [Information Structure and Word Order Change in Germanic and Romance Languages (ISWOC)](http://foni.uio.no:3000)
+* [Information Structure and Word Order Change in Germanic and Romance Languages (ISWOC)](http://iswoc.github.io)
 * [Menotec](http://foni.uio.no:3000)
