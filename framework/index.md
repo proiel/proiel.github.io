@@ -5,7 +5,7 @@ layout: default
 The _PROIEL treebanking framework_ consists of an [annotation
 scheme](http://folk.uio.no/daghaug/syntactic_guidelines.pdf), an XML-based
 [interchange
-format](https://raw.githubusercontent.com/mlj/proiel-webapp/master/public/exports/proiel.xsd)
+format](../handbook/developer/proielxml)
 and a set of tools for creating and manipulating treebanks.
 
 The three main tools of the framework are
@@ -26,7 +26,7 @@ We also provide a number of _experimental_ tools still under development:
 * `proiel-query`, a query tool using the [TigerQuery](http://www.ims.uni-stuttgart.de/forschung/ressourcen/werkzeuge/TIGERSearch/doc/html/QueryLanguage.html) formalism
 * [`proiel-api`](https://github.com/mlj/proiel-api), a JSON API for building applications on top of proiel-webapp instances
 * `proiel-lint`, a validation tool
-* `proiel-viewer`, a read-only front end for existing treebanks
+* `proiel-reader`, a read-only front end for existing treebanks
 
 The PROIEL treebanking framework is currently used by the following treebanking projects:
 
