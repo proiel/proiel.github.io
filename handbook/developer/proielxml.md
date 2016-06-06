@@ -144,6 +144,12 @@ The principles for rendering textual values as HTML are as follows:
 
 ## Schema versions
 
+Version |
+--------|
+[PROIEL XML 2.1](https://raw.githubusercontent.com/proiel/proiel/master/lib/proiel/proiel_xml/proiel-2.1/proiel-2.1.xsd) |
+[PROIEL XML 2.0/2.0.1](https://raw.githubusercontent.com/proiel/proiel/master/lib/proiel/proiel_xml/proiel-2.0/proiel-2.0.xsd) |
+[PROIEL XML 1.0](https://raw.githubusercontent.com/proiel/proiel/master/lib/proiel/proiel_xml/proiel-1.0/proiel-1.0.xsd) |
+
 ### PROIEL XML 1.0
 
 This was the first version of PROIEL XML intended for public consumption. This version is now obsolete.
