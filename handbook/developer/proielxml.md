@@ -74,14 +74,15 @@ The `lemma` attribute contains the lemma associated with the token, i.e. the dic
 When it is necessary to distinguish between multiple lemmas with the same textual form, the PROIEL XML convention is use the associated part of speech to distinguish them.
 
 If there are multiple lemmas with the same textual form and the same part of speech, the convention is to append `#` and a positive, non-zero integer:
+
 ```xml
 <token lemma="quod#1" part-of-speech="Df">...</token>
 <token lemma="quod#2" part-of-speech="Df">...</token>
 ```
-It is a good idea to number lemmas consecutively but nothing in the model assumes that this is the case.
-
 
 Lemma uniqueness is therefore determined by the pair (`lemma`, `part-of-speech`).
+
+It is a good idea to number lemmas consecutively but nothing in the model assumes that this is the case.
 
 TODO: `part-of-speech`
 TODO: `morphology`
