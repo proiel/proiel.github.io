@@ -121,6 +121,20 @@ In the example below, `text1` is aligned to `text2`. The alignment of token `123
 
 This means that if the source element lacks an `alignment-id` attribute, but one of its descendant `div`, `sentence` or `token` elements has an `alignment-id` attribute, the PROIEL XML file is inconsistent. This constraint can be verified using the `proiel validate` command.
 
+## References to external data
+
+| Element    | Attribute      | Type                           | Availability      |
+|------------|----------------|--------------------------------|-------------------|
+| `sentence` | `foreign-ids`  | String, optional               | PROIEL XML >= 1.0 |
+| `token`    | `foreign-ids`  | String, optional               | PROIEL XML >= 1.0 |
+| `lemma`    | `foreign-ids`  | String, optional               | PROIEL XML >= 1.0 |
+
+The attribute `foreign_ids` is intended for storing user-defined references to external data of any kind. No particular format is required but the convention is to use a comma-separated list of key=value pairs, such as
+
+```xml
+<token ... foreign_ids="source_segment_id=T567,witness=CA">
+```
+
 ## Textual values
 
 All text should be encoded using UTF-8 and we recommend ensuring that it uses Unicode Normalization form C. (Since PROIEL XML uses XML, it is possible to use a different encoding if you specify this in the XML prologue but there is really no good reason to do this, so we say that you should not do it!)
