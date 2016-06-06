@@ -4,6 +4,8 @@ layout: handbook
 
 # PROIEL XML
 
+A PROIEL XML treebank can contain one or more texts. These are called _sources_. Each source is divided into one or more _divs_, and each div contains one or more _sentences_, which finally contain one or more _tokens_. In this document, the term _object_ is used generically for sources, divs, sentences and tokens.
+
 ## Object IDs
 
 | Element    | Attribute      | Type                           | Availability      |
@@ -22,6 +24,25 @@ While duplication of IDs is permitted in the PROIEL XML model, it is not encoura
 The absence of the `id` attribute from `div` elements before PROIEL XML 2.1 was unintentional.
 
 TODO: Explain relation between ID duplication in PROIEL XML and uniqueness of XML IDs in a single XML document.
+
+## Object order
+
+Objects are ordered in the sequence that they occur in the original text. The only exception (depending on how you look at it) is an empty token. An empty token is a virtual token that represents a node in the dependency graph but lacks an equivalent in the original text. By convention empty tokens that encode _pro_-drop are placed immediately before the head it is a dependent of, while empty verbal tokens and empty coordinating tokens are placed at the end of the sentence. Nothing hinges on this; it is only a convention.
+
+## Sources
+
+Sources are represented by the element `source`.
+
+## Languages
+
+| Element    | Attribute      | Type                           | Availability      |
+|------------|----------------|--------------------------------|-------------------|
+| `source`   | `language`     | Enumeration, required          |                   |
+
+Language tags contain an [ISO-639-3](http://www.sil.org/iso639-3/) language tag.
+All tags defined in the most recent version of the ISO-639-3 standard are
+valid. See SIL's [ISO-639-3 code table](http://www.sil.org/iso639-3/codes.asp)
+for a list.
 
 ## Annotation status
 
@@ -53,11 +74,12 @@ The `lemma` attribute contains the lemma associated with the token, i.e. the dic
 When it is necessary to distinguish between multiple lemmas with the same textual form, the PROIEL XML convention is use the associated part of speech to distinguish them.
 
 If there are multiple lemmas with the same textual form and the same part of speech, the convention is to append `#` and a positive, non-zero integer:
-
 ```xml
 <token lemma="quod#1" part-of-speech="Df">...</token>
 <token lemma="quod#2" part-of-speech="Df">...</token>
 ```
+It is a good idea to number lemmas consecutively but nothing in the model assumes that this is the case.
+
 
 Lemma uniqueness is therefore determined by the pair (`lemma`, `part-of-speech`).
 
