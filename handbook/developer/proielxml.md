@@ -10,10 +10,10 @@ A PROIEL XML treebank can contain one or more texts. These are called _sources_.
 
 | Element    | Attribute      | Type                           | Availability      |
 |------------|----------------|--------------------------------|-------------------|
-| `source`   | `id`           | String, optional               |                   |
+| `source`   | `id`           | String, optional               | PROIEL XML >= 1.0 |
 | `div`      | `id`           | Non-negative integer, optional | PROIEL XML >= 2.1 |
-| `sentence` | `id`           | Non-negative integer, optional |                   |
-| `token`    | `id`           | Non-negative integer, optional |                   |
+| `sentence` | `id`           | Non-negative integer, optional | PROIEL XML >= 1.0 |
+| `token`    | `id`           | Non-negative integer, optional | PROIEL XML >= 1.0 |
 
 The `id` attribute on sources uniquely identifies the source within the treebank. This means that two different sources can have the same value for their `id` attribute if they belong to different treebanks or different versions of the same treebank.
 
@@ -37,7 +37,7 @@ Sources are represented by the element `source`.
 
 | Element    | Attribute      | Type                           | Availability      |
 |------------|----------------|--------------------------------|-------------------|
-| `source`   | `language`     | Enumeration, required          |                   |
+| `source`   | `language`     | Enumeration, required          | PROIEL XML >= 1.0 |
 
 Language tags contain an [ISO-639-3](http://www.sil.org/iso639-3/) language tag.
 All tags defined in the most recent version of the ISO-639-3 standard are
@@ -48,7 +48,7 @@ for a list.
 
 | Element    | Attribute      | Type                           | Availability      |
 |------------|----------------|--------------------------------|-------------------|
-| `sentence` | `status`       | Enumeration, optional          |                   |
+| `sentence` | `status`       | Enumeration, optional          | PROIEL XML >= 1.0 |
 | `sentence` | `annotated_by` | String, optional               | PROIEL XML >= 2.1 |
 | `sentence` | `reviewed_by`  | String, optional               | PROIEL XML >= 2.1 |
 | `sentence` | `annotated_at` | Time stamp, optional           | PROIEL XML >= 2.1 |
@@ -65,9 +65,9 @@ TODO: `annotated_at`, `reviewed_at`
 
 | Element    | Attribute        | Type                           | Availability      |
 |------------|------------------|--------------------------------|-------------------|
-| `token`    | `lemma`          | String, optional               |                   |
-| `token`    | `part-of-speech` | String, optional               |                   |
-| `token`    | `morphology`     | String, optional               |                   |
+| `token`    | `lemma`          | String, optional               | PROIEL XML >= 1.0 |
+| `token`    | `part-of-speech` | String, optional               | PROIEL XML >= 1.0 |
+| `token`    | `morphology`     | String, optional               | PROIEL XML >= 1.0 |
 
 The `lemma` attribute contains the lemma associated with the token, i.e. the dictionary form of the token.
 
