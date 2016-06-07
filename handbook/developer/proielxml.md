@@ -86,7 +86,7 @@ It is a good idea to number lemmas consecutively but nothing in the model assume
 
 TODO: `part-of-speech`
 
-Parts of speech are defined in the annotation schema included in a PROIEL XML file. For reference, the table below gives the default parts of speech for a PROIEL XML 2.1 treebank:
+Parts of speech are defined in the annotation schema included in a PROIEL XML file. For ease of reference, the table below gives the default parts of speech for a PROIEL XML 2.1 treebank:
 
 Tag  | Part of speech
 -----|-----------------------------
@@ -118,9 +118,62 @@ Tag  | Part of speech
 `V-` | verb
 `X-` | unassigned
 
-
 TODO: `morphology`
 
+## Dependency relations
+
+TODO
+
+Dependency relations are defined in the annotation schema included in a PROIEL XML file. For ease of reference, the table below gives the default dependency relations for a PROIEL XML 2.1 treebank:
+
+Tag       | Dependency relation                         | Primary relation | Secondary relation
+----------|---------------------------------------------|------------------|-------------------
+`adnom`   | adnominal                                   | Yes              | Yes
+`adv`     | adverbial                                   | Yes              | Yes
+`ag`      | agens                                       | Yes              | Yes
+`apos`    | apposition                                  | Yes              | Yes
+`arg`     | argument (object or oblique)                | Yes              | Yes
+`atr`     | attribute                                   | Yes              | Yes
+`aux`     | auxiliary                                   | Yes              | Yes
+`comp`    | complement                                  | Yes              | Yes
+`expl`    | expletive                                   | Yes              | Yes
+`narg`    | adnominal argument                          | Yes              | Yes
+`nonsub`  | non-subject (object, oblique or adverbial)  | Yes              | Yes
+`obj`     | object                                      | Yes              | Yes
+`obl`     | oblique                                     | Yes              | Yes
+`parpred` | parenthetical predication                   | Yes              | Yes
+`part`    | partitive                                   | Yes              | Yes
+`per`     | peripheral (oblique or adverbial)           | Yes              | Yes
+`pid`     | predicate identity                          | No               | Yes
+`pred`    | predicate                                   | Yes              | Yes
+`rel`     | apposition or attribute                     | Yes              | Yes
+`sub`     | subject                                     | Yes              | Yes
+`voc`     | vocative                                    | Yes              | Yes
+`xadv`    | open adverbial complement                   | Yes              | Yes
+`xobj`    | open objective complement                   | Yes              | Yes
+`xsub`    | external subject                            | No               | Yes
+
+## Information structure
+
+TODO
+
+Information statuses are defined in the annotation schema included in a PROIEL XML file. For ease of reference, the table below gives the default information statuses for a PROIEL XML 2.1 treebank:
+
+Tag                  | Information status
+---------------------|---------------------------
+`acc_gen`            | acc-gen
+`acc_inf`            | acc-inf
+`acc_sit`            | acc-sit
+`info_unannotatable` | unannotatable
+`kind`               | kind
+`new`                | new
+`no_info_status`     | annotatable (undecided)
+`non_spec_inf`       | inferred from non-specific
+`non_spec_old`       | non-specific old
+`non_spec`           | non-specific
+`old_inact`          | old-inact
+`old`                | old
+`quant`              | quantifier restriction
 
 ## Alignments
 
