@@ -2,6 +2,11 @@
 layout: handbook
 ---
 
+<div class="notification is-danger">
+  <button class="delete"></button>
+  As of June 2016, this document is an evolving draft. All information here is correct and up to date, but very incomplete.
+</div>
+
 # PROIEL XML
 
 A PROIEL XML treebank can contain one or more texts. These are called _sources_. Each source is divided into one or more _divs_, and each div contains one or more _sentences_, which finally contain one or more _tokens_. In this document, the term _object_ is used generically for sources, divs, sentences and tokens.

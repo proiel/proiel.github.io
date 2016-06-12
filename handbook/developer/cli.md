@@ -2,6 +2,11 @@
 layout: handbook
 ---
 
+<div class="notification is-danger">
+  <button class="delete"></button>
+  As of June 2016, this document is an evolving draft. All information here is correct and up to date, but very incomplete.
+</div>
+
 # Command-line tool
 
 The general format is `proiel` followed by a command, any options and one or more filenames:

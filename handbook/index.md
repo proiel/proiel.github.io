@@ -6,3 +6,4 @@ layout: handbook
 
 * [Command-line tools](developer/cli.html)
 * [PROIEL XML](developer/proielxml.html)
+* [Ruby interface](developer/ruby.html)
