@@ -36,4 +36,4 @@ Additional steps are necessary in a number of circumstances:
 
 * **Adverbs**: For adverbs in argument position we include the lemma of the adverb.
 
-<b id="f1">1</b> Although dependents with the relation `aux` do not count as arguments, the valency algorithm includes a subset of them for some languages. For Slavic languages, where reflexives can play an important role in verbal valency frames, `aux` dependents that are reflexive are included in valency frames. [↩](#a1)
+<sup id="f1">1</sup> Although dependents with the relation `aux` do not count as arguments, the valency algorithm includes a subset of them for some languages. For Slavic languages, where reflexives can play an important role in verbal valency frames, `aux` dependents that are reflexive are included in valency frames. [↩](#a1)
