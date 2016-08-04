@@ -26,14 +26,14 @@ Relations are sorted using the obliqueness hierarchy
 ```
 obj < xobj < arg < obl < comp < narg
 ```
-Pairs with morphological feature values are more oblique than pairs without, but no specific order is defined for pairs with the same relation but different morphological feature values.
+Pairs with morphological feature values are considered to be more oblique than pairs without, but no specific order is defined for pairs with the same relation but different morphological feature values.
 
-Two additional steps are often necessary:
+Additional steps are necessary in a number of circumstances:
 
-* function words: lemma + POS; deps. check for coordination and collapse
+* **Coordination**: When a dependent is headed by a coordinator, whether asyndetic or an overt conjunction, the relevant valency information is found among the coordinated dependents. The following procedure deals with coordination: First, all dependents are hoisted to the same level so that they depend directly on the predicate whose valency frame is to be computed. Hoisting applies recursively as there is no ban on embedding coordinators within coordinators. Second, the relation and morphological features of the hoisted dependents are folded. If the result is a unique relation and unique morphological features, these are treated as representative of the entire coordination. If the features are not unique, they are ignored.
 
-* adverbs: lemma + POS
+* **Function words**: For subjunctions and prepositions the relevant morphological features are those of the dependent of the function word. We also include the lemma of the function word. The dependent of the function word may be a coordination, which has to be resolved as above. Additionally, as there is no ban on multiple dependents of a single function word without any coordination, the relations and features of all dependents of the function word have to be folded and tested for uniqueness.
 
-* coordination: collapse; both asyndetic and overt
+* **Adverbs**: For adverbs in argument position we include the lemma of the adverb.
 
 <b id="f1">1</b> Although dependents with the relation `aux` do not count as arguments, the valency algorithm includes a subset of them for some languages. For Slavic languages, where reflexives can play an important role in verbal valency frames, `aux` dependents that are reflexive are included in valency frames. [↩](#a1)
