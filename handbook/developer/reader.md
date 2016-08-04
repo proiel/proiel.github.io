@@ -14,7 +14,7 @@ Valency is presented in terms of argument frames, which are generated automatica
 
 Generating an argument frame for a specific instance of a predicate in a treebank minimally requires the following three steps.
 
-First, all dependents of the predicate are filtered by relation. Dependents whose relation do not indicate argumenthood are discarded from further consideration. In this filtering process, `obj`, `obl`, `xobj`, `comp` and `narg` count as arguments, while `sub`, `ag`, `adv`, `xadv`, `aux`, `apos`, `atr`, `part` and `expl` do not. Among the unspecific relations, `arg`, which always indicates an argument, counts as an argument; `adnom`, `nonsub` and `per`, which may or may not actually indicate arguments, do not count; and `rel`, which never indicates an argument, does not count.
+First, all dependents of the predicate are filtered by relation. Dependents whose relation do not indicate argumenthood are discarded from further consideration. In this filtering process, `obj`, `obl`, `xobj`, `comp` and `narg` count as arguments, while `sub`, `ag`, `adv`, `xadv`, `aux`,<sup id="a1">[1](#f1)</sup> `apos`, `atr`, `part` and `expl` do not. Among the unspecific relations, `arg`, which always indicates an argument, counts as an argument; `adnom`, `nonsub` and `per`, which may or may not actually indicate arguments, do not count; and `rel`, which never indicates an argument, does not count.
 
 Second, certain morphological feature values are extracted from each dependent. These are feature values that tend to play a role in argument selection regardless of language. For nominal dependents (nouns, adjectives, pronouns and numerals), the value of the `case` feature is extracted. For verbal dependents (verbs), the value of the `mood` feature is extracted. For other dependents, no feature value is extracted.
 
@@ -35,3 +35,5 @@ Two additional steps are often necessary:
 * adverbs: lemma + POS
 
 * coordination: collapse; both asyndetic and overt
+
+<b id="f1">1</b> Although dependents with the relation `aux` do not count as arguments, the valency algorithm includes a subset of them for some languages. For Slavic languages, where reflexives can play an important role in verbal valency frames, `aux` dependents that are reflexive are included in valency frames. [↩](#a1)
