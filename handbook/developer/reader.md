@@ -38,4 +38,4 @@ Additional steps are necessary in a number of circumstances:
 
 <hr>
 
-<sup id="f1">1</sup>Although dependents with the relation `aux` do not count as arguments, the valency algorithm includes a subset of them for some languages. For Slavic languages, where reflexives can play an important role in verbal valency frames, `aux` dependents that are reflexive are included in valency frames. [↩](#a1)
+<sup id="f1">1</sup>Although dependents with the relation `aux` do not count as arguments, some `aux` dependents play a role in subclassifying valency frames. For Slavic languages, for example, where reflexives can play an important role in determining valency, `aux` dependents that are reflexive are used to partition occurrences of valency frames with and without a reflexive into separate sets. [↩](#a1)
