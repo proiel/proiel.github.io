@@ -3,11 +3,6 @@ layout: handbook
 published: true
 ---
 
-<div class="notification is-danger">
-  <button class="delete"></button>
-  As of July 2016, this document is an evolving draft. All information here is correct and up to date, but very incomplete.
-</div>
-
 # Valency
 
 Valency is presented in terms of argument frames, which are generated automatically from the morphosyntactic annotation.
