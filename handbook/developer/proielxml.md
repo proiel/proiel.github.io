@@ -33,6 +33,41 @@ Objects are ordered in the sequence that they occur in the original text. The on
 
 Sources are represented by the element `source`.
 
+## Textual metadata
+
+TODO
+
+### Chronological data
+
+Always use the Gregorian calendar and provide only the year, not the day, month or any other commentary.
+
+Give the year as an integer and use `BC` to denote years before year 1. Do not use other designations like `AD` for the epoch starting with year 1:
+
+> `1040`
+> `300 BC`
+
+If the exact year is not known, but it is possible to place the event within a range of years, give the start and end of the range separated by `-`:
+
+`1040-1045`
+`30 BC-20 BC`
+`10 BC-10`
+
+If either end-point of the range is an estimate, prefix an the estimated year by `c. ` (for _circa_):
+
+> `c. 1050-c. 1100`
+> `c. 10 BC-c. 10`
+
+If it is not possible to give a range, give an extimated year prefixed by `c. `:
+
+> `c. 1050`
+> `c. 100 BC`
+
+As a shorthand, a century can be given instead of a range or an estimated year:
+
+> `11th c.` (= `c. 1201-c. 1300`)
+> `1st c.` = (= `c. 1-c. 100`)
+> `1st c. BC` = (= `c. 200 BC-c. 1 BC`)
+
 ## Languages
 
 | Element    | Attribute      | Type                           | Availability      |
