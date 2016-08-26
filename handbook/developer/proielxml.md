@@ -73,7 +73,7 @@ c. 100 BC
 As a shorthand, a century can be given instead of a range or an estimated year:
 
 ```
-11th c.     (= c. 1201-c. 1300)
+13th c.     (= c. 1201-c. 1300)
 1st c.      (= c. 1-c. 100)
 1st c. BC   (= c. 200 BC-c. 1 BC)
 ```
