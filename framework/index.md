@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: handbook
 ---
 
 The _PROIEL treebanking framework_ consists of an [annotation
