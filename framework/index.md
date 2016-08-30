@@ -10,23 +10,16 @@ and a set of tools for creating and manipulating treebanks.
 
 The three main tools of the framework are
 
-1. [`proiel-cli`](https://github.com/proiel/proiel-cli), a command-line tool for manipulating existing PROIEL treebanks using the XML-based interchange format, and
-2. [`proiel-webapp`](https://github.com/mlj/proiel-webapp), a web-based tool for creating and annotating PROIEL treebanks
-3. [`proiel`](https://github.com/proiel/proiel), a library for manipulating PROIEL treebanks
+1. [PROIEL Annotator](https://github.com/mlj/proiel-webapp), a web-based tool for creating and annotating PROIEL treebanks,
+2. [PROIEL Reader](http://proiel.johndal.com), a web-based treebank browser, and
+3. [PROIEL Library](https://github.com/proiel/proiel), a Ruby-based library for manipulating PROIEL treebanks, whose most frequently used functionality is exposed by a [command-line interface](https://github.com/proiel/proiel-cli).
 
-If you want to use an existing PROIEL treebank that you have obtained, you will only need to install `proiel-cli`.
+If you want to use an existing PROIEL treebank that you have obtained, you will only need to install the PROIEL Library.
 
 If you want to create a new PROIEL treebank and set up your own infrastructure
-for this, you will need both `proiel-webapp` and `proiel-cli`. You should start
-by reading the installation instructions in the [`proiel-webapp`
+for this, you will need both PROIEL Annotator and PROIEL Reader. You should start
+by reading the installation instructions in the [PROIEL Reader
 wiki](https://github.com/mlj/proiel-webapp/wiki).
-
-We also provide a number of _experimental_ tools still under development:
-
-* `proiel-query`, a query tool using the [TigerQuery](http://www.ims.uni-stuttgart.de/forschung/ressourcen/werkzeuge/TIGERSearch/doc/html/QueryLanguage.html) formalism
-* [`proiel-api`](https://github.com/mlj/proiel-api), a JSON API for building applications on top of proiel-webapp instances
-* `proiel-lint`, a validation tool
-* `proiel-reader`, a read-only front end for existing treebanks
 
 The PROIEL treebanking framework is currently used by the following treebanking projects:
 
