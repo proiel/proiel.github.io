@@ -1,14 +1,12 @@
 ---
-layout: conservative
+layout: default
 ---
 
-# Data management plan for the PROIEL Treebank
+### Data management plan for the PROIEL Treebank
 
-This document describes the procedures for data management for the [PROIEL Treebank](http://proiel.github.io).
+This document describes the procedures for data management for the [PROIEL Treebank](http://proiel.github.io). The procedures are based on the Digital Curation Centre's [Checklist for a Data Management Plan v4.0](http://www.dcc.ac.uk/resources/data-management-plans/checklist).
 
-This data management plan is based on the Digital Curation Centre's [Checklist for a Data Management Plan v4.0](http://www.dcc.ac.uk/resources/data-management-plans/checklist).
-
-## Data Collection
+#### Data Collection
 
 The treebank is constructed using the [PROIEL Annotator](https://github.com/mlj/proiel-webapp/), which uses a database for storage. This database is intended only for use during annotation and is not suitable for long-term storage of the data.
 
@@ -24,19 +22,19 @@ The release should have a flat file layout (no directories) with one file per li
 
 Additional files with derived data may be included in a release if there is demand for it. It must be made explcitly clear in the README file that these files are derived files, and their method of derivation must be stated and replicable.
 
-## Documentation and Metadata
+#### Documentation and Metadata
 
 The PROIEL XML schema includes several optional metadata elements. These elements must be updated for each release. At a minimum the elements that identify the original text's author (if known) and title, the electronic text's provenance and license, and the annotator's identities must be included.
 
 The PROIEL annotation guidelines and PROIEL XML documentation are living documents that are expected to evolve over time. Previous versions must therefore remain available for cross-referencing.
 
-## Ethics and Legal Compliance
+#### Ethics and Legal Compliance
 
 As part of the onboarding process, all contributors to the treebank must explicitly accept that their contributions will be distributed as part of the treebank under a [CC BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/) and that that their individual contributions may be identified in released XML files and in any online application that provides access to the data set (e.g. the PROIEL Reader).
 
 Contributors' personal information, apart from their name and treebank-internal unique identifier, must not be disclosed without explicit consent.
 
-## Storage and Backup
+#### Storage and Backup
 
 The live database for ongoing annotation is hosted by [Tekstlaboratoriet at the University of Oslo](http://www.tekstlab.uio.no/) using the University's managed storage and backup infrastructure.
 
@@ -44,13 +42,13 @@ Released versions of the treebank are deposited on a CLARINO node. Two redundant
 
 The current git repository provider is GitHub, which is based in the United States. As the git repository and releases do not contain sensitive data and are covered by a permissive open-source license, there are no known obstacles to using a provider in this jurisdiction.
 
-## Selection and Preservation
+#### Selection and Preservation
 
 The final product is the treebank with all layers of annotation. The development history of the treebank up to the point of review is not part of the final product and can be discarded when the treebank is released. In contrast, the development history of the treebank after its initial release should be preserved and made available alongside the treebank data itself.
 
 Experimentation with different types of annotation inevitably results in data that cannot be represented in released XML files as these XML files need to be made available on a stable, well-understood format. Once experimental annotation matures necessary extensions to the XML format should be considered. If this is not possible, separate data dumps should be preserved, e.g. CSV files or JSON files.
 
-## Data Sharing
+#### Data Sharing
 
 Access to the raw data is obtained by downloading a release of the treebank from CLARIN or the treebank website. Access to derived data is also possible through [Universal Dependencies](http://universaldependencies.org/).
 
@@ -60,7 +58,7 @@ There should be no barriers to access (e.g. user registration or manual approval
 
 Persistent identifiers for each release are provided by CLARIN.
 
-## Responsibilities and Resources
+#### Responsibilities and Resources
 
 DH is responsible for the overall quality of the linguistic data. HE is responsible for maintaining metadata. MJ is responsible for release production and control.
 
