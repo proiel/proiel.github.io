@@ -21,6 +21,8 @@ Releases are hosted on [GitHub](https://github.com/proiel/proiel-treebank/), whe
   </a>
 </p>
 
+#### Citation
+
 If you use the treebank, please cite as:
 
 <blockquote>
