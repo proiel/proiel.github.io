@@ -47,6 +47,12 @@ See also the following articles for further details:
       Dag T. T. Haug, Hanne M. Eckhoff, Marek Majer and Eirik Welo. 2009. '<a href="http://booksandjournals.brillonline.com/content/journals/10.1163/156658409x12529372103308">Breaking down and putting back together: analysis and synthesis of New Testament Greek</a>'. <em>Journal of Greek Linguistics</em> 9 (1): 56-92.
     </tt>
   </p>
+
+  <p>
+    <tt>
+      Hanne Eckhoff, Kristin Bech, Gerlof Bouma, Kristine Eide, Dag Haug, Odd Einar Haugen and Marius Jøhndal. 2017. '<a href="https://link.springer.com/article/10.1007/s10579-017-9388-5">The PROIEL treebank family: a standard for early attestations of Indo-European languages</a>'. <em>Language Resources and Evaluation</em>.
+    </tt>
+  </p>
 </blockquote>
 
 #### Contents
