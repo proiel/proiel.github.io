@@ -8,6 +8,8 @@ The PROIEL Treebank is one of three treebanks that use the same annotation syste
 
 All the PROIEL-family treebanks can be browsed and queried using [INESS Search](http://clarino.uib.no/iness/treebanks). You can watch an introduction to using INESS with PROIEL on [YouTube](https://www.youtube.com/watch?v=Btk5UX-fsOY&feature=youtu.be&t=2240).
 
+You can also try [Syntacticus](http://syntacticus.org), our experimental interface for browsing and searching the PROIEL Treebank and related treebanks. This interface is not yet ready for serious use, but it will be soon!
+
 #### Downloads
 
 Releases are hosted on [GitHub](https://github.com/proiel/proiel-treebank/), where you can also access [previous releases](https://github.com/proiel/proiel-treebank/releases).
