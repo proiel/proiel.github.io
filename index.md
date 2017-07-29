@@ -2,7 +2,7 @@
 layout: default
 ---
 
-The PROIEL Treebank is a treebank of ancient Indo-European languages, including Latin and Ancient Greek. It uses a refined version of dependency grammar and is available under a [Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License](https://creativecommons.org/licenses/by-nc-sa/3.0/us/). On this site you will find our official, versioned releases of the treebank and pointers to further information.
+The PROIEL Treebank is a treebank of ancient Indo-European languages, including Latin and Ancient Greek. It uses a refined version of dependency grammar and is available under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/). On this site you will find our official, versioned releases of the treebank and pointers to further information.
 
 The PROIEL Treebank is one of three treebanks that use the same annotation system, follow the same principles and available under the same license. The PROIEL Treebank covers Ancient Greek and Latin, as well as the translations of the New Testament into Gothic, Classical Armenian and Old Church Slavonic. The [TOROT Treebank](http://torottreebank.github.io/) covers Old Church Slavonic, Old Russian and Middle Russian, while the [ISWOC Treebank](https://iswoc.github.io/) includes texts in Old English, Old French, Portuguese and Spanish. The complete collection currently has 928,185 tokens, all of which has been manually annotated with morphological and syntactic analyses. Parts of the treebank also have information-structure annotation and the New Testament texts include text alignment.
 
