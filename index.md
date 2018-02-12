@@ -107,8 +107,6 @@ We are constantly expanding the treebank. The following texts are in the pipelin
 
 The morphosyntactic annotation scheme is described in the document [PROIEL Guidelines for Annotation](http://folk.uio.no/daghaug/syntactic_guidelines.pdf).
 
-#### Development
-
-Our releases contain the treebank on our own [PROIEL XML format](https://proiel.github.io/handbook/developer/#the-proiel-xml-format). PROIEL XML is the authoritative format for PROIEL-style treebank and the only one that provides access to all the annotation we have, but for ease of use we also include the treebank as CoNLL-X and CoNLL-U files. We have [a command-line utility](https://github.com/proiel/proiel-cli) that can be used to convert PROIEL XML to various other formats (see the [documentation](https://proiel.github.io/handbook/developer/#manipulating-proiel-xml-treebank-files) for examples), including formats used for training taggers. For more complex tasks we have a [Ruby library](https://github.com/proiel/proiel), which is quite well [documented](http://www.rubydoc.info/gems/proiel).
+Our releases contain the treebank on our own [PROIEL XML format](https://proiel.github.io/handbook/developer/#the-proiel-xml-format). PROIEL XML is the authoritative format for PROIEL-style treebank and the only one that provides access to all the annotation we have, but for ease of use we also include the treebank as CoNLL-X and CoNLL-U files. We have [a command-line utility](https://github.com/proiel/proiel-cli) that can be used to convert PROIEL XML to various other formats (see the [documentation](https://proiel.github.io/handbook/developer/#manipulating-proiel-xml-treebank-files) for examples), including formats used for training taggers. For more complex tasks you can use our libraries for Ruby. See our [developer's pages](http://dev.syntacticus.org) for more information.
 
 <!-- Ready-made conversion of the PROIEL treebank to Universal Dependencies  -->
