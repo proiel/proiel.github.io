@@ -68,8 +68,10 @@ Herodotus, _Histories_                     | Ancient Greek
 Sphrantzes, _Chronicles_                   | Ancient Greek
 Jerome's Vulgate                           | Latin
 Caesar, _The Gallic War_                   | Latin
+Cicero, _De officiis_                      | Latin
 Cicero, _Letters to Atticus_               | Latin
 _Peregrinatio Aetheriae_                   | Latin
+Palladius, _Opus agriculturae_             | Latin
 The Armenian New Testament                 | Classical Armenian
 The Gothic Bible                           | Gothic
 Codex Marianus                             | Old Church Slavonic
@@ -84,14 +86,6 @@ We are constantly expanding the treebank. The following texts are in the pipelin
   <tr>
     <th>Text</th>
     <th>Language</th>
-  </tr>
-  <tr>
-    <td>Cicero, <i>De officiis</i></td>
-    <td>Latin</td>
-  </tr>
-  <tr>
-    <td>Palladius, <i>Opus agriculturae</i></td>
-    <td>Latin</td>
   </tr>
   <tr>
     <td>Plautus, opera omnia</td>
