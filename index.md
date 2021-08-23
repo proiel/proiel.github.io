@@ -30,7 +30,7 @@ If you use the treebank, please cite as:
 <blockquote>
   <p>
     <tt>
-      Dag T. T. Haug and Marius L. Jøhndal. 2008. '<a href="http://www.hf.uio.no/ifikk/english/research/projects/proiel/Activities/proiel/publications/marrakech.pdf">Creating a Parallel Treebank of the Old Indo-European Bible Translations</a>'. In Caroline Sporleder and Kiril Ribarov (eds.).  <em>Proceedings of the Second Workshop on Language Technology for Cultural Heritage Data (LaTeCH 2008) (2008)</em>, pp. 27-34.
+      Dag T. T. Haug and Marius L. Jøhndal. 2008. '<a href="http://www.lrec-conf.org/proceedings/lrec2008/workshops/W22_Proceedings.pdf#page=31">Creating a Parallel Treebank of the Old Indo-European Bible Translations</a>'. In Caroline Sporleder and Kiril Ribarov (eds.).  <em>Proceedings of the Second Workshop on Language Technology for Cultural Heritage Data (LaTeCH 2008) (2008)</em>, pp. 27-34.
     </tt>
   </p>
 </blockquote>
